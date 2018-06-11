@@ -16,14 +16,13 @@
   </head>
   <body>
     <!--Navbar-->
-	<nav class="navbar navbar-light light-blue lighten-4">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-between">
 
 	    <!-- Search -->
-	    <form class="navbar-form navbar-left" role="search">
-		  <div class="form-group">
-		    <input type="text" class="form-control" placeholder="Type here to search...">
-		  </div>
-		</form>
+	    <form class="form-inline">
+      		<h4 class="text-white bg-dark px-2">Event</h4>
+        	<input class="form-control mr-sm-2" type="search" placeholder="Type here..." aria-label="Search">
+    	    </form>
 
 	    <!-- Collapse button -->
 	    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
@@ -51,24 +50,128 @@
   		<h1 class="display-4">Event Search</h1>
 	</div>
 
-	<!-- List group -->
-	<ul class="list-group">
-	  <li class="list-group-item">
-	  	<i class="fas fa-user-alt"></i> School fair
-	  </li>
-	  <li class="list-group-item">
-	  	<i class="fas fa-user-alt"></i> School open day
-	  </li>
-	  <li class="list-group-item">
-	  	<i class="fas fa-user-alt"></i> School tour
-	  </li>
-	  <li class="list-group-item">
-	  	<i class="fas fa-user-alt"></i> Schedule Personal Visit
-	  </li>
-	  <li class="list-group-item">
-	  	<i class="fas fa-user-alt"></i> Open Enrollment
-	  </li>
-	</ul>
+	<div id="accordion">
+    <div class="card">
+      <div class="card-header row" id="headingOne">
+        <div class="col-xs-6 col-sm-4">
+        <h5 class="mb-0">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <a href="#">
+              <i class="fa fa-user-circle"></i>
+            </a>
+            <a href="#">School Fair</a>
+          </button>
+        </h5>
+       </div>
+        <div class="col-xs-6 col-sm-4">
+          <a href="#">Public Schools</a>
+        </div>
+        <div class="col-xs-6 col-sm-4">
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+        </div>
+      </div>
+    </div>  
+    <div class="card">
+      <div class="card-header row" id="headingOne">
+        <div class="col-xs-6 col-sm-4">
+        <h5 class="mb-0">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <a href="#">
+              <i class="fa fa-user-circle"></i>
+            </a>
+            <a href="#">School Open Day</a>
+          </button>
+        </h5>
+       </div>
+
+        <div class="col-xs-6 col-sm-4">
+          <a href="#">Charter Schools</a>
+        </div>
+        <div class="col-xs-6 col-sm-4">
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header row" id="headingOne">
+        <div class="col-xs-6 col-sm-4">
+        <h5 class="mb-0">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <a href="#">
+              <i class="fa fa-user-circle"></i>
+            </a>
+            <a href="#">School Tour</a>
+          </button>
+        </h5>
+       </div>
+        <div class="col-xs-6 col-sm-4">
+          <a href="#">Dual-language and Special Programs</a>
+        </div>
+        <div class="col-xs-6 col-sm-4">
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header row" id="headingOne">
+        <div class="col-xs-6 col-sm-4">
+        <h5 class="mb-0">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <a href="#">
+              <i class="fa fa-user-circle"></i>
+            </a>
+            <a href="#">Schedule Personal Visit</a>
+          </button>
+        </h5>
+       </div>
+        <div class="col-xs-6 col-sm-4">
+          <a href="#">Waldorf Education</a>
+        </div>
+        <div class="col-xs-6 col-sm-4">
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header row" id="headingOne">
+        <div class="col-xs-6 col-sm-4">
+        <h5 class="mb-0">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <a href="#">
+              <i class="fa fa-user-circle"></i>
+            </a>
+            <a href="#">Open Enrollment</a>
+          </button>
+        </h5>
+       </div>
+        <div class="col-xs-6 col-sm-4">
+          <a href="#">Magnet Schools</a>
+        </div>
+        <div class="col-xs-6 col-sm-4">
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
